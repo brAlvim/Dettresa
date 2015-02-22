@@ -1,0 +1,174 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:500,900,100,300,700,400);
+@font-face { font-family: "hallosans"; src: url("HalloSans.otf") format("truetype"); }
+* { margin: 0; padding: 0; list-style-type: none; }
+.clear { clear: both; }
+
+
+
+@media (min-width: 1382px) {
+	body {
+	margin: 0;
+	padding: 0;
+	}
+	nav {
+	background: url("../images/background-menu.png");
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	}
+	nav ul {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	nav ul li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	float: left;
+	text-transform: uppercase;
+	}
+	nav ul li a {
+	padding: 0px 10px 0px 10px;
+	line-height: 60px;
+	height: 60px;
+	text-decoration: none;
+	color: #000;
+	float: left;
+	transition: all 0.2s;
+	}
+	nav ul li a:hover {
+	background: #c6bd60;
+	color: #FFF;
+	transition: all 0.2s;
+	}
+	#home {
+	background: url("../images/bg-1.jpg") top right;
+	height: 100%;
+	}
+	#home .logo {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	}
+	.subtitle {
+	position: absolute;
+	top: 50%;
+	margin-top: -80px;
+	left: 5%;
+	font-family: "hallosans";
+	font-size: 36px;
+	text-transform: uppercase;
+	line-height: 30px;
+	}
+	.subtitle > span {
+	color: #c6bd60;
+	}
+	.subtitle a {
+	color: #455a87;
+	text-decoration: none;
+	transition: all 0.2s;
+	}
+	.subtitle a:hover {
+	font-size: 40px;
+	transition: all 0.2s;
+	}
+	.divisor1 {
+	background: url("../images/divisor-1.png") repeat-x;
+	height: 11px;
+	margin-top: -11px;
+	}
+	#sobre {
+	background: #d7cc76;
+	height: 100%;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1381px) {
+	body {
+	margin: 0;
+	padding: 0;
+	}
+	nav {
+	background: url("../images/background-menu.png");
+	width: 100%;
+	position: fixed;
+	z-index: 2;
+	}
+	nav ul {
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	nav ul li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	float: left;
+	text-transform: uppercase;
+	}
+	nav ul li a {
+	padding: 0px 10px 0px 10px;
+	line-height: 60px;
+	height: 60px;
+	text-decoration: none;
+	color: #000;
+	float: left;
+	transition: all 0.2s;
+	}
+	nav ul li a:hover {
+	background: #c6bd60;
+	color: #FFF;
+	transition: all 0.2s;
+	}
+	#home {
+	background: url("../images/bg-1.jpg") top right;
+	height: 100%;
+	}
+	#home .logo {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	}
+	.subtitle {
+	position: absolute;
+	top: 50%;
+	margin-top: -80px;
+	left: 5%;
+	font-family: "hallosans";
+	font-size: 36px;
+	text-transform: uppercase;
+	line-height: 30px;
+	}
+	.subtitle > span {
+	color: #c6bd60;
+	}
+	.subtitle a {
+	color: #455a87;
+	text-decoration: none;
+	transition: all 0.2s;
+	}
+	.subtitle a:hover {
+	font-size: 40px;
+	transition: all 0.2s;
+	}
+	.divisor1 {
+	background: url("../images/divisor-1.png") repeat-x;
+	height: 11px;
+	margin-top: -11px;
+	}
+	#sobre {
+	background: #d7cc76;
+	height: 100%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+	
+}
+
+@media (max-width: 599px) {
+	
+}
